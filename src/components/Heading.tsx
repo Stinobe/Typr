@@ -25,7 +25,7 @@ const Heading: React.FC<HeadingProps> = ({ title }: HeadingProps): React.ReactEl
         <Link to="/">{windowTitle}</Link>
       </h1>
       <div className={styles.repolink}>
-        <a href="https://github.com/Stinobe" target="_blank" rel="noreferrer">
+        <a href="https://github.com/Stinobe/Typr" target="_blank" rel="noreferrer">
           <i className="bx bx-fw bx-xs bxl-github" />
         </a>
         <button
