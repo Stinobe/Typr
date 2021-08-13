@@ -1,0 +1,25 @@
+.container {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  bottom: -15px;
+  left: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(darken(#ee4266, 20%), 0.8);
+  backdrop-filter: blur(3px);
+  font-weight: 700;
+  text-align: center;
+}
+
+.note {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.link {
+  margin-top: 15px;
+  color: #fff;
+  display: block;
+}

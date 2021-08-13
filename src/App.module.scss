@@ -1,0 +1,25 @@
+.wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  @media (min-width: 767px) {
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: lighten(#1b1b1e, 10%);
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 1rem;
+  box-shadow: 1px 1px 7px darken(#1b1b1e, 10%), 0 0 2px lighten(#1b1b1e, 5%);
+  overflow: hidden;
+}
+
+.content {
+  padding: 15px;
+}

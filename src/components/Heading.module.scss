@@ -1,0 +1,67 @@
+.header {
+  padding: 7px 10px 10px;
+  background-image: linear-gradient(to bottom, lighten(#1b1b1e, 3%), lighten(#1b1b1e, 1%));
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  h1 {
+    color: #d8dbe2;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 14px;
+  }
+}
+
+.actionmenu {
+  display: inline-block;
+  line-height: 14px;
+  vertical-align: middle;
+  margin-right: 10px;
+  opacity: 0.6;
+
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #ff605c;
+    margin-right: 5px;
+  }
+  &:after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #00ca4e;
+    margin-left: 5px;
+  }
+}
+
+.actionmenudot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #ffbd44;
+}
+
+.repolink {
+  font-size: 12px;
+  line-height: 14px;
+  display: inline-block;
+}
+
+.cookies {
+  appearance: none;
+  background: none;
+  border: none;
+  color: darken(#d8dbe2, 20%);
+  cursor: pointer;
+
+  &:hover {
+    color: lighten(#d8dbe2, 20%);
+  }
+}

@@ -1,0 +1,33 @@
+.options {
+  position: relative;
+
+  select {
+    appearance: none;
+    border: none;
+    box-shadow: none;
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: lighten(#1b1b1e, 20%);
+    border: 1px solid lighten(#1b1b1e, 40%);
+    color: #d8dbe2;
+    padding: 5px 10px;
+  }
+
+  &::before {
+    position: absolute;
+    content: "\ecad";
+    font-family: "boxicons";
+    display: inline-block;
+    line-height: 36px;
+    right: 10px;
+    font-size: 25px;
+    text-align: right;
+  }
+}
+
+.buttonlist {
+  text-align: right;
+}

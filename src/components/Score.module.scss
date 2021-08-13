@@ -1,0 +1,35 @@
+.bar {
+  position: relative;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 15px;
+  border: 2px solid darken(#d8dbe2, 50%);
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.score {
+  position: relative;
+  z-index: 2;
+}
+
+.filler {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(darken(#d8dbe2, 50%), 0.3);
+  z-index: 1;
+  display: flex;
+}
+
+.info {
+  display: flex;
+  padding: 0;
+  margin: 10px 0 0;
+  list-style: none;
+  font-size: 13px;
+  justify-content: space-between;
+}

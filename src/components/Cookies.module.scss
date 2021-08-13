@@ -1,0 +1,54 @@
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  z-index: 100;
+  background-color: darken(#1b1b1e, 5%);
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.message {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.note {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.all {
+  appearance: none;
+  border: none;
+  background-color: lighten(#1b1b1e, 20%);
+  line-height: 24px;
+  display: inline-block;
+  padding: 0 5px;
+  color: darken(#1b1b1e, 50%);
+}
+
+.functional {
+  appearance: none;
+  border: none;
+  background: none;
+  color: lighten(#1b1b1e, 50%);
+  text-decoration: underline;
+}
