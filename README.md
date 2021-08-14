@@ -6,11 +6,11 @@
 
 Following resources are used to fetch quotes
 
-| Title                                                                     | Author                                              |
-| :------------------------------------------------------------------------ | :-------------------------------------------------- |
-| [Breaking bad](https://github.com/shevabam/breaking-bad-quotes)           | [shevabam](https://github.com/shevabam)             |
-| [Chuck Norris](https://github.com/chucknorris-io/chuck-api)               | [Mathias Schilling](https://github.com/matchilling) |
-| [Dad Jokes](https://icanhazdadjoke.com/)                                  | [C653 Labs](https://c653labs.com)                   |
-| [Game of Thrones](https://github.com/shevabam/game-of-thrones-quotes-api) | [shevabam](https://github.com/shevabam)             |
-| [Kanye West](https://github.com/ajzbc/kanye.rest)                         | [ajzbc](https://github.com/ajzbc)                   |
-| [Quotable](https://github.com/lukePeavey/quotable)                        | [Luke Peavey](https://github.com/lukePeavey)        |
+| Title                                                                     | Author                                              | Added by                              |
+| :------------------------------------------------------------------------ | :-------------------------------------------------- | :------------------------------------ |
+| [Breaking bad](https://github.com/shevabam/breaking-bad-quotes)           | [shevabam](https://github.com/shevabam)             | [Stinobe](https://github.com/Stinobe) |
+| [Chuck Norris](https://github.com/chucknorris-io/chuck-api)               | [Mathias Schilling](https://github.com/matchilling) | [Stinobe](https://github.com/Stinobe) |
+| [Dad Jokes](https://icanhazdadjoke.com/)                                  | [C653 Labs](https://c653labs.com)                   | [Stinobe](https://github.com/Stinobe) |
+| [Game of Thrones](https://github.com/shevabam/game-of-thrones-quotes-api) | [shevabam](https://github.com/shevabam)             | [Stinobe](https://github.com/Stinobe) |
+| [Kanye West](https://github.com/ajzbc/kanye.rest)                         | [ajzbc](https://github.com/ajzbc)                   | [Stinobe](https://github.com/Stinobe) |
+| [Quotable](https://github.com/lukePeavey/quotable)                        | [Luke Peavey](https://github.com/lukePeavey)        | [Stinobe](https://github.com/Stinobe) |
