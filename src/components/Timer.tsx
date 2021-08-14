@@ -32,7 +32,7 @@ const Timer: React.FC<TimerProps> = (props: TimerProps): React.ReactElement => {
   };
 
   useEffect(() => {
-    let intervalId: NodeJS.Timeout;
+    let intervalId: any;
     if (isActive && !isPaused) {
       intervalId = setInterval(() => {
         setCounter(counter + 1);
