@@ -1,0 +1,30 @@
+name: Broken resource
+description: A resource is broken
+title: "Broken resource: "
+labels: [resource, bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this report!
+  - type: dropdown
+    id: resource
+    attributes:
+      label: Which resource is broken
+      options:
+        - Breaking Bad
+        - Chuck Norris
+        - Dad Jokes
+        - Game of Thrones
+        - Kanye West
+        - Quotable
+    validations:
+      required: true
+  - type: checkboxes
+    id: duplicate
+    attributes:
+      label: Did you check if a bug has been created for this?
+      options:
+        - label: "Yes, I've checked to make sure I don't create a duplicate."
+    validations:
+      required: true
